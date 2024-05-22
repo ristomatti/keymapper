@@ -7,7 +7,7 @@
 #include <limits>
 
 namespace {
-  const auto exit_sequence = std::array{ Key::ShiftLeft, Key::Escape, Key::K };
+  const auto exit_sequence = std::array{ Key::ShiftLeft, Key::Escape, Key::Q };
 
   KeySequence::const_iterator find_key(const KeySequence& sequence, Key key) {
     return std::find_if(begin(sequence), end(sequence),
